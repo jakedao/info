@@ -1,6 +1,6 @@
-import avt from '../assets/images/avt.jpeg';
+import avt from "../assets/images/avt.jpeg";
 
-import { Heading, Info, Section } from './components';
+import { Heading, Info, Section } from "./components";
 
 const App = () => {
   const info = {
@@ -20,6 +20,7 @@ const App = () => {
       <Section section="About" />
       <h1>KD</h1>
       <div>KD</div>
+      <div> TESt</div>
     </div>
   );
 };
