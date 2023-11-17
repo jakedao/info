@@ -1,0 +1,16 @@
+@import "./colors.scss";
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $sub;
+    color: white;
+    height: 200px;
+
+    & h1 {
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+}

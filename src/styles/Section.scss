@@ -1,0 +1,11 @@
+@import "./colors.scss";
+
+.section {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: $sub-1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
