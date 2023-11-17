@@ -2,8 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const miniCssExtractPluging = new MiniCssExtractPlugin();
-
 module.exports = {
   entry: "./src/index.tsx",
   output: {
@@ -21,11 +19,11 @@ module.exports = {
       },
       {
         test: /\.(css|scss)$/i,
-        use: [miniCssExtractPluging.loader, "css-loader", "sass-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
-        type: "asset/resource",
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: "file-loader",
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
@@ -51,6 +49,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/index.html",
+    }),
+    // Split the css and bundle file separately
+    new MiniCssExtractPlugin({
+      filename: "styles.[contenthash].css",
     }),
   ],
 
