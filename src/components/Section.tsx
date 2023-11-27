@@ -1,4 +1,4 @@
-import '../styles/Section.scss';
+import "../styles/Section.scss";
 
 type TOwnProps = {
   section: string;
@@ -8,9 +8,11 @@ type TOwnProps = {
 const Section = (props: TOwnProps) => {
   const { section, children } = props;
   return (
-    <div className="section">
-      <div>{section.toUpperCase()}</div>
-      {children}
+    <div>
+      <div className="section">
+        <div>{section.toUpperCase()}</div>
+      </div>
+      <div className="section__content">{children}</div>
     </div>
   );
 };

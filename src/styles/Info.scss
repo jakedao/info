@@ -14,6 +14,7 @@
     align-items: start;
     padding: 1rem;
     box-sizing: border-box;
+    overflow-y: auto;
 
     &-items {
       margin: 0.5rem 0;
@@ -22,11 +23,12 @@
     &-main {
       width: 100%;
       padding-bottom: 1rem;
-      border-bottom: 1px dashed rgb(196, 196, 196);
+      border-bottom: 1px dashed $border;
     }
 
     &-icons{
         display: inline-block;
+        margin-top: 1rem;
         & a {
           color: white;
           text-decoration: none;
@@ -45,7 +47,7 @@
   width: 180px;
   height: 180px;
   border-radius: 9999px;
-  box-shadow: 3px 3px 3px rgb(121, 120, 120);
+  border: 1px solid white;
   align-self: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -55,5 +57,22 @@
     height: 100%;
     border-radius: 9999px;
     object-fit: cover;
+  }
+}
+
+.skill {
+  width: 100%;
+  border-bottom: 1px dashed $border;
+
+  &__item {
+    margin: 0.2rem 0;
+  }
+  &__section{
+    margin: 1.5rem 0;
+  }
+
+  &__title{
+    font-size: 22px;
+    font-weight: 400;
   }
 }

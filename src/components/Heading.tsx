@@ -1,4 +1,4 @@
-import '../styles/Heading.scss';
+import "../styles/Heading.scss";
 
 type TOwnProps = {
   name: string;
