@@ -10,40 +10,7 @@ body {
   #app {
     height: 100%;
   }
-  .content{
-    height: 100%;
-    overflow-y:auto;
-    padding: 1rem;
-  }
-  
-  .heading {
-  
-  }
-  
-  .spacing-b-normal {
-    margin-bottom: 1rem;
-  }
-  
-  .spacing-l-normal {
-    margin-left: 1rem;
-  }
-  
-  .vstack {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
-  
-  .divider-x {
-    border-bottom: 1px dashed rgb(196, 196, 196);
-  }
-  
-  .hstack {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
+
   .header-wrapper {
     background-color: $sub;
     color: white;
@@ -101,10 +68,6 @@ body {
     padding: 5px;
   }
   
- 
-  
-
-  
   .timeline {
     font-size: 14px;
     color: rgb(145, 145, 145);
@@ -119,6 +82,7 @@ body {
     .info {
       position: relative;
       right: 0;
+      width: 100%;
     }
     .header-wrapper {
       width: 100%;
