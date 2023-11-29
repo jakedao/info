@@ -6,11 +6,12 @@ import netcompanyLoho from '../../assets/logo/netcompany_icon.png';
 import FreelancerLogo from '../../assets/logo/self_employment_icon.png';
 import { IExperience, IUserInfo, TExpertises } from '../models';
 
-const about: string[] = [
-  "Front-end Developer expertise at Javascript(Types Script)",
-  "Solid experience to the Software Development Life Cycle over 7 years experience",
-  "Proficiency in web development with modern React Framework",
-  "Having good sense of UI and UX and detail attention",
+const abouts = [
+  "Experienced Software Engineer skilled in developing front-end, modern client-side frameworks utilizing React+Redux with over 8 year experience in SDLC (Software Development Life Cycle)",
+  "An effective listener that can communicate technical information in an easily understandable way.",
+  "By paying attention to very details, delivering is a stunning UI which meets the User Experience.",
+  "Recognized as a Code Quality Checker with very clear Code Review Comments and self-checking implements which reduces the high impact of new integrations.",
+  "Despite of Back-end limitation, understanding the very basic Express that boosts the self-confidence throughout the implementation",
 ];
 
 const info: IUserInfo = {
@@ -190,4 +191,4 @@ const experiences: IExperience[] = [
   },
 ];
 
-export { about, info, expertises, experiences };
+export { abouts, info, expertises, experiences };

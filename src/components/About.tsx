@@ -1,3 +1,5 @@
+import '../styles/Abouts.scss';
+
 import Section from './Section';
 
 type TOwnProps = {
@@ -9,8 +11,8 @@ const About = (props: TOwnProps) => {
 
   return (
     <Section section="About">
-      {about.map((item, index) => (
-        <li key={index}>{item}</li>
+      {about.map((item, idx) => (
+        <li key={idx}>{item}</li>
       ))}
     </Section>
   );
