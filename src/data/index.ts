@@ -51,7 +51,7 @@ const experiences: IExperience[] = [
   {
     companyInfo: { name: "Baemin", logo: BaeminLogo },
     position: "Front End Developer",
-    duration: "Jul 2022 - Dec 2023 · 1 yr 6 mos",
+    duration: "Jan 2022 - Dec 2023 · 1 yr 11 mos",
     domain: "System Management Tools and Analytics Boards",
     description:
       "Tools to manage campaigns, promotions, event and Store Manage ( Menu, Pricings and promotion)",
@@ -78,7 +78,7 @@ const experiences: IExperience[] = [
   {
     companyInfo: { name: "Freelancing", logo: FreelancerLogo },
     position: "Front End Developer - Contractor",
-    duration: "Aug 2021 - Oct 2022 · 1 yr 3 mosAug",
+    duration: "Aug 2021 - Dec 2022 · 6 mos",
     domain: "Food ordering site on Universal Platform on TizenOS",
     description:
       "Providing quick menu access and payment for Subway Burger via TV screen running Tizen OS",
@@ -116,7 +116,7 @@ const experiences: IExperience[] = [
   {
     companyInfo: { name: "Morphotech Limited", logo: MorphotechLogo },
     position: "Front End Developer ",
-    duration: "Sep 2020 -  Sep 2021 · 9 mos",
+    duration: "Sep 2020 -  Aug 2021 · 1 yr",
     skills: [
       "Javascript (Latest syntax ES6)",
       "ReactJS",
