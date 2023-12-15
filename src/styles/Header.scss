@@ -1,0 +1,25 @@
+@import "./colors.scss";
+
+.header {
+    width: 100vw;
+    top: 0;
+    height: 60px;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        background-color: red;
+        width: 200px;
+    }
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

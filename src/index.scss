@@ -1,100 +1,14 @@
 @import './styles/colors.scss';
 
-body {
-    background-color: $main;
-    margin: 0;
-    padding: 10px;
-    height: 100vh;
-  }
+#app {
+  background-color: $main;
+  margin: 0;
+  height: 100vh;
+}
 
-  #app {
-    height: 100%;
-  }
+main {
+  width: 100%;
+  background-color: grey;
+}
 
-  .header-wrapper {
-    background-color: $sub;
-    color: white;
-    height: 200px;
-  }
-  
-  .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    width: 55vw;
-    height: 100%;
-  }
-  
-  .header-name {
-    font-size: 40px;
-  }
-  
-  .logo-wrapper {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  .logo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 65vw;
-  }
-  
-
-  .section-detail {
-    width: 80%;
-    margin-left: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .info-detail {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .rating {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-  
-  .timeline {
-    font-size: 14px;
-    color: rgb(145, 145, 145);
-  }
-  
-  .underline {
-    text-decoration: underline;
-    font-weight: bold;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .info {
-      position: relative;
-      right: 0;
-      width: 100%;
-    }
-    .header-wrapper {
-      width: 100%;
-    }
-    .section-detail {
-      width: 100%;
-      margin: 0;
-      padding: 1rem;
-    }
-    .content-wrapper {
-      width: 100%;
-      margin: 0;
-    }
-  }
   

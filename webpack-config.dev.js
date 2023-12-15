@@ -3,8 +3,8 @@ const common = require("./webpack-config.common");
 
 module.exports = merge(common, {
   mode: "development",
-  devtool: "inline-source-map",
   devServer: {
+    hot: true,
     client: {
       logging: "info",
       overlay: true,
