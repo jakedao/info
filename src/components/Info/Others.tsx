@@ -6,9 +6,9 @@ const Others = (props: TOwnProps) => {
   const { others } = props;
   return (
     <div>
-      <h3>Others</h3>
+      <h3>Languages</h3>
       {others.map((item) => (
-        <li>{item}</li>
+        <div>{item}</div>
       ))}
     </div>
   );

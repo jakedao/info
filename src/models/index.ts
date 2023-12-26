@@ -1,12 +1,9 @@
 export interface IUserInfo {
-  name: string;
-  dob: string;
-  education: string;
-  major: string;
   phone: string;
   email: string;
   skype?: string;
   linkedIn?: string;
+  git?: string;
 }
 
 export type TExpertises = {

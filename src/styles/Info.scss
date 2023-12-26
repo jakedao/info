@@ -1,46 +1,41 @@
 @import "./colors.scss";
 
 .info {
-    z-index: 9999;
-    height: 100%;
-    width: 320px;
-    right: 12vw;
-    top: 0;
-    background-color: $section;
-    color: white;
-    display: flex;
-    position: fixed;
-    flex-flow: column;
-    align-items: start;
-    padding: 1rem;
-    box-sizing: border-box;
-    overflow-y: auto;
+  z-index: 9999;
+  height: 100%;
+  width: 320px;
+  right: 12vw;
+  top: 0;
+  background-color: $section;
+  color: white;
+  display: flex;
+  position: fixed;
+  flex-flow: column;
+  align-items: start;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
 
-    &-items {
-      margin: 0.5rem 0;
-    }
 
-    &-main {
-      width: 100%;
-      padding-bottom: 1rem;
-      border-bottom: 1px dashed $border;
-    }
-
-    &-icons{
-        display: inline-block;
-        margin-top: 1rem;
-        & a {
-          color: white;
-          text-decoration: none;
-        }
-
-        & svg {
-          margin-right: 2rem;
-          font-size: 30px;
-        }
-    }
-
+  &-main {
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed $border;
   }
+
+  &-items {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    & svg {
+      margin-right: 1rem;
+      font-size: 20px;
+    }
+  }
+
+}
 
 
 .image-wrapper {
@@ -67,12 +62,22 @@
   &__item {
     margin: 0.2rem 0;
   }
-  &__section{
+
+  &__section {
     margin: 1.5rem 0;
   }
 
-  &__title{
+  &__title {
     font-size: 22px;
     font-weight: 400;
+  }
+}
+
+.education{
+  display: flex;
+  justify-content: space-between;
+
+  & div:first-child{
+    margin-right: 1rem;
   }
 }

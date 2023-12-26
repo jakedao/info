@@ -15,14 +15,29 @@ const abouts = [
 ];
 
 const info: IUserInfo = {
-  name: "Dao Tuan Khanh",
-  dob: "12 Jul 1991",
-  education: "College",
-  major: "Network Management",
   phone: "(+84) 938 842 596",
   email: "jakedao1991@mail.com",
   skype: "jake.dao1",
   linkedIn: "https://www.linkedin.com/in/khanh-dao-751a68128",
+  git: "https://github.com/jakedao",
+};
+
+const skills = {
+  main: [
+    { id: "js", name: "Javascript", rating: 4 },
+    { id: "style", name: "HTML / CSS", rating: 4 },
+  ],
+  sub: [
+    { id: "qa", name: "QA Manual", rating: 4 },
+    { id: "qaa", name: "QA Automation", rating: 3 },
+    { id: "java", name: "Java", rating: 2 },
+  ],
+  fw: [
+    { id: "react", name: "React", rating: 4 },
+    { id: "node", name: "Express", rating: 2 },
+    { id: "qa", name: "Selenium", rating: 3 },
+  ],
+  other: ["Native: Vietnamese", "English: Band 6.0 Academic IELTS"],
 };
 
 const expertises: TExpertises = {
@@ -191,4 +206,4 @@ const experiences: IExperience[] = [
   },
 ];
 
-export { abouts, info, expertises, experiences };
+export { abouts, info, skills, expertises, experiences };
