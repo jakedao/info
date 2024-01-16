@@ -1,0 +1,29 @@
+@import '../../styles/colors.scss';
+
+.section {
+    width: 100%;
+    margin: 1rem 0;
+
+
+    &__header { 
+        display: flex;
+        flex-direction: row;
+
+        & span {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0;
+            width: fit-content;
+            color: $frost-brightest;
+            background-color: $frost-darkest;
+            padding: 0.2rem;
+        }
+
+        &__spacing {
+            width: 100%;
+            border-bottom: 1.5px solid #cecece;
+        }
+    
+    }
+    
+}

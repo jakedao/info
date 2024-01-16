@@ -1,0 +1,34 @@
+@import "../../styles/colors.scss";
+
+.experience {
+    &__item {
+        margin-bottom: 2.5rem;
+
+        .stack {
+            margin: 1rem 0;
+        }
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div:first-child {
+            width: 30%;
+        }
+        .company_name {
+            color: $frost-darker;
+        }
+
+        .duration {
+            font-size: 0.8rem;
+            font-weight: 600;
+            font-style: italic;
+            color: $frost-bright;
+        }
+    }
+
+
+
+}
