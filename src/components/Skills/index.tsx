@@ -1,4 +1,4 @@
-import './Skills.scss';
+import "./Skills.scss";
 
 type TSkills = {
   main: string[];
@@ -12,13 +12,22 @@ const Skills = () => {
       "Typescript",
       "Javascript",
       "React",
+      "NextJs",
       "Express",
       "Node",
       "Html / CSS",
       "jQuery",
       "Git",
     ],
-    libs: ["Material UI", "Antd", "Redux", "Mongoose", "Jest"],
+    libs: [
+      "Material UI",
+      "Antd",
+      "Redux",
+      "Mongoose",
+      "Jest",
+      "react-query",
+      "zustand",
+    ],
     others: ["Testing", "Selenium", "WebDriver", "English", "Vietnamese"],
   };
 

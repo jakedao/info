@@ -1,5 +1,5 @@
-import { Education, Experience, Heading, Section, Skills } from './components';
-import './index.scss';
+import { Education, Experience, Heading, Section, Skills } from "./components";
+import "./index.scss";
 
 const App = () => {
   return (

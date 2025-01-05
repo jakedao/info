@@ -1,4 +1,4 @@
-import './Section.scss';
+import "./Section.scss";
 
 type TOwnProps = {
   section: string;

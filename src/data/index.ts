@@ -1,6 +1,28 @@
-import { TExperience } from '../model';
+import { TExperience } from "../model";
 
 export const experiences: TExperience[] = [
+  {
+    position: "Front End Lead - Contractor",
+    companyName: "NSC Software",
+    start: "Jan 2024",
+    end: "Now",
+    stacks: [
+      "NextJS",
+      "react-query",
+      "zustand",
+      "Microsoft Azure DevOps",
+      "d3.js",
+    ],
+    do: [
+      "Proposing technical approached to align with customer needs",
+      "Providing delivery milestone to match with client time constraint",
+      "Mentoring and providng on concise guidance that appropriate to different team member levels",
+      "Defining coding convention and guidelines(GIT flow, best-practises, ...) for team references",
+      "Collobrating with Devops and QA team to setup the pipeline to ensure the coding quality and earning the customer confidence",
+      "Re-designing coding pattern to remove nearly 30% of unsued and duplicated code.",
+      "Holding internal team meet-up to have better connection between team members.",
+    ],
+  },
   {
     position: "Javascript Developer",
     companyName: "Baemin",

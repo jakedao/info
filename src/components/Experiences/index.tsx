@@ -1,6 +1,6 @@
-import { experiences } from '../../data';
+import { experiences } from "../../data";
 
-import './Experiences.scss';
+import "./Experiences.scss";
 
 const Expriences = () => {
   return (
@@ -30,4 +30,5 @@ const Expriences = () => {
     </div>
   );
 };
+
 export default Expriences;
